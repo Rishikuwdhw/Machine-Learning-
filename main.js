@@ -29,7 +29,7 @@ function take_snapshot()
     } else {
         console.log(results)  
         document.getElementById("result_object_name").innerHTML = results[0].label
-        document.getElementById("result_object_results").innerHTML = results[0].confidence.tofixed(1);
+        document.getElementById("result_object_results").innerHTML = results[0].confidence.toFixed(2);
     } 
     }
     
